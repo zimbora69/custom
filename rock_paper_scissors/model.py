@@ -43,7 +43,7 @@ def decide_winner(user_choice, computer_choice):
 
 
 def play_RPS():
-    user_choice = raw_input("Rock, Paper or Scissors ")
+    user_choice = raw_input("Rock, Paper or Scissors? Type: ")
     user_choice = user_choice.upper()
     computer_choice = options[randint(0, len(options) - 1)]
     decide_winner(user_choice, computer_choice)
